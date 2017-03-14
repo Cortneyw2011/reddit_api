@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app = "redditApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <a href="#/userinput">Search for you favorite stuff</a>
+    <a href="#/viewsubreddit">See your favorit stuff</a>
+
+    <ng-view></ng-view>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular-route.min.js"></script>
+  <script src="scripts/modules/module.js" charset="utf-8"></script>
+  <script src="scripts/controllers/userinput.js" charset="utf-8"></script>
+  <script src="scripts/factory/reddit-factory.js" charset="utf-8"></script>
+  <script src="scripts/controllers/view-subreddit.js" charset="utf-8"></script>
+  </body>
+</html>
